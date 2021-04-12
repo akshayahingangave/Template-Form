@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'templateform';
+
+  onSubmit(data: any) {
+    console.warn(data);
+    }
+
 }
